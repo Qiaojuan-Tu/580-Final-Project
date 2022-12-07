@@ -39,7 +39,8 @@ After cleaning the data, we did EDA to get some basic ideas about our dataset. T
 
 Code from ANLY 580 Labs was used to complete this project along with internet resources. Following are a few websites that were referred to for the codin
 
-https://mccormickml.com/2019/07/22/BERT-fine-tuning/ 
+1. https://mccormickml.com/2019/07/22/BERT-fine-tuning/ 
 
+2. https://huggingface.co/bert-base-uncased
 
 
