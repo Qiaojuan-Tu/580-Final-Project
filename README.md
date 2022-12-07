@@ -14,6 +14,11 @@ For the stock index change variable, we will use two commonly followed equity in
 For the financial tweet content data, an article that we found lists the 24 best Twitter profiles that people who are interested in finance and the stock market have to follow. It also lists Goldman Sachs and Morgan Stanley, which are reliable. We scraped and generated tweets from all 24 accounts through the Twitter API.
 
 ## Packages
+Following are the main Python packages that were used to complete this project: 
+1. Transformers
+2. Scikit-learn 
+3. PyTorch 
+4. Keras
 
 ## Workflow
 After data generation, the next step is data cleaning for both the tweet text data and the two stock index datasets. For the financial tweet text data, we perform traditional text processing such as lowercase text, removing stop words, hyperlinks, emails, numbers, extra space, and punctuation. After cleaning the text data, we tokenized the text by using three different tools: the plain CountVectorizer, Ngram CountVectorizer, and TF-IDF with N-gram CountVectorizer. By comparing three tokenizing tools, we choose the best possible numerical representation of the text strings for running models. We chose N-grams from 1 to 4 because 4 can be the most relevant term size to our financial topic. Those tokenized words are also lemmatized and stemmed in order to yield a good result.
@@ -21,3 +26,15 @@ After data generation, the next step is data cleaning for both the tweet text da
 For the index data, we calculated the weekly stock price mean difference and last day difference using the mean of the current week minus the mean of the previous week. If the number is greater than 0, it is labeled "RISE". If it is less than zero, it is designated as "FALL".
 
 After cleaning the data, we did EDA to get some basic ideas about our dataset. Then we used the tokenizing matrix as input to train and test models and evaluated those models through accuracy, f1-score, and confusion matrices.
+
+## Github Content Guide
+
+**Code:** All analysis is coded using Python. All visualizations are included in the _visualization_ folder. 
+
+**Data:** Raw data and cleaned data. 
+
+**Presentation Slide:** Presentation slides include detailed analysis and results for this project.
+
+
+
+
