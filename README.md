@@ -37,7 +37,7 @@ After cleaning the data, we did EDA to get some basic ideas about our dataset. T
 
 ## Coding References: 
 
-Code from ANLY 580 Labs was used to complete this project along with internet resources. Following are a few websites that were referred to for the codin
+Code from ANLY 580 Labs was used to complete this project along with internet resources. Following are a few websites that were referred to for the coding section.
 
 1. https://mccormickml.com/2019/07/22/BERT-fine-tuning/ 
 
