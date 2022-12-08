@@ -1,6 +1,8 @@
 # Model Evaluation on Financial Tweets and Stock Trend Prediction
 Group: Yunhan Zhang, Kaiyue Wei, Ningyuan Zhou, Qiaojuan Tu
 
+**Special thanks to Dr. Nakul Padalkar from Geogretown DSAN program for helping us train the bert pre-training model on personal computer.**
+
 ## Background and Motivation
 Before the internet, there could be a significant lag time between the unfolding of an event and the public’s awareness of it. With the advent of social media, information could spread more quickly. Twitter stands out among social media sites as a valuable source of up-to-date breaking news, alerts, and tips that can inform trading decisions. A single investor can simply monitor Twitter for major announcements and, lately, financial market trends instead of various websites and other publication channels. Posts on the social media platform can influence stock returns, according to research led by a West Virginia University financial expert.
 
@@ -42,5 +44,7 @@ Code from ANLY 580 Labs was used to complete this project along with internet re
 1. https://mccormickml.com/2019/07/22/BERT-fine-tuning/ 
 
 2. https://huggingface.co/bert-base-uncased
+
+
 
 
